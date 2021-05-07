@@ -1,0 +1,27 @@
+{
+  "name": "lit-rounded-button",
+  "version": "1.0.0",
+  "description": "a WebComponent with rounded button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applejuanm/lit-rounded-button.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Html5",
+    "CSS3"
+  ],
+  "author": "applejuanm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/applejuanm/lit-rounded-button/issues"
+  },
+  "homepage": "https://github.com/applejuanm/lit-rounded-button#readme",
+  "dependencies": {
+    "lit-element": "^2.5.1"
+  }
+}

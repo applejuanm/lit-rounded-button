@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of lit-rounded-button</title>
+    <style>
+        .customized {
+            --lit-rounded-button-background-color: #004c3c;
+            --lit-rounded-button-text-color: #cff;
+            --lit-rounded-button-hover-background-color: #3ff;
+            --lit-rounded-button-hover-text-color: #000;
+            --lit-rounded-button-animation-time: 1s;
+            --lit-rounded-button-height: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <lit-rounded-button>Button text</lit-rounded-button>
+    <lit-rounded-button class="customized">Click</lit-rounded-button>
+    <lit-rounded-button disabled>disabled</lit-rounded-button>
+
+    <script src="../lit-rounded-button.js" type="module"></script>
+</body>
+</html>
